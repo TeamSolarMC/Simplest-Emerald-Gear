@@ -1,0 +1,15 @@
+{
+  "item.simplest_emerald_gear.emerald_sword": "Изумрудный меч",
+  "item.simplest_emerald_gear.emerald_pickaxe": "Изумрудная кирка",
+  "item.simplest_emerald_gear.emerald_shovel": "Изумрудная лопата",
+  "item.simplest_emerald_gear.emerald_axe": "Изумрудный топор",
+  "item.simplest_emerald_gear.emerald_hoe": "Изумрудная мотыга",
+
+  "item.simplest_emerald_gear.emerald_helmet": "Изумрудный шлем",
+  "item.simplest_emerald_gear.emerald_chestplate": "Изумрудный нагрудник",
+  "item.simplest_emerald_gear.emerald_leggings": "Изумрудные поножи",
+  "item.simplest_emerald_gear.emerald_boots": "Изумрудные ботинки",
+
+
+  "creativetab.simplest_emerald_gear_tab": "Simplest Emerald Gear"
+}
