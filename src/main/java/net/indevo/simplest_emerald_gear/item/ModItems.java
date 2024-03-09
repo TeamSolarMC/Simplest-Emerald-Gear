@@ -12,15 +12,15 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, SimplestEmeraldGear.MOD_ID);
 
     public static final RegistryObject<Item> EMERALD_SWORD = ITEMS.register("emerald_sword",
-            () -> new SwordItem(ModToolTiers.EMERALD, 2, 3, new Item.Properties().durability(256)));
+            () -> new SwordItem(ModToolTiers.EMERALD, 3, -2.4F, new Item.Properties().durability(256)));
     public static final RegistryObject<Item> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.EMERALD, 1, 2, new Item.Properties().durability(256)));
+            () -> new PickaxeItem(ModToolTiers.EMERALD, 1, -2.8F, new Item.Properties().durability(256)));
     public static final RegistryObject<Item> EMERALD_SHOVEL = ITEMS.register("emerald_shovel",
-            () -> new ShovelItem(ModToolTiers.EMERALD, 2, 3, new Item.Properties().durability(256)));
+            () -> new ShovelItem(ModToolTiers.EMERALD, 1.5F, -3.0F, new Item.Properties().durability(256)));
     public static final RegistryObject<Item> EMERALD_AXE = ITEMS.register("emerald_axe",
-            () -> new AxeItem(ModToolTiers.EMERALD, 2, 3, new Item.Properties().durability(256)));
+            () -> new AxeItem(ModToolTiers.EMERALD, 6.0F, -3.1F, new Item.Properties().durability(256)));
     public static final RegistryObject<Item> EMERALD_HOE = ITEMS.register("emerald_hoe",
-            () -> new HoeItem(ModToolTiers.EMERALD, 2, 3, new Item.Properties().durability(256)));
+            () -> new HoeItem(ModToolTiers.EMERALD, -2, -1.0F, new Item.Properties().durability(256)));
 
     public static final RegistryObject<Item> EMERALD_HELMET = ITEMS.register("emerald_helmet",
             () -> new ArmorItem(ModArmorMaterials.EMERALD, ArmorItem.Type.HELMET, new Item.Properties()));

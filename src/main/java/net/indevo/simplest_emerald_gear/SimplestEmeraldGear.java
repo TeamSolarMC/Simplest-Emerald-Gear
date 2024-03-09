@@ -21,6 +21,7 @@ public class SimplestEmeraldGear
     public static final String MOD_ID = "simplest_emerald_gear";
     private static final Logger LOGGER = LogUtils.getLogger();
 
+
     public SimplestEmeraldGear() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 

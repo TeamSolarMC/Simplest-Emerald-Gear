@@ -22,19 +22,100 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> p_251297_) {
 
-//        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_SWORD.get())
-//                .pattern("ABA")
-//                .pattern("ACA")
-//                .pattern(" C ")
-//                .define('A', Items.IRON_INGOT)
-//                .define('B', Items.IRON_BLOCK)
-//                .define('C', Items.STICK)
-//                .unlockedBy("has_iron_ingot", inventoryTrigger(ItemPredicate.Builder.item()
-//                        .of(Items.IRON_INGOT).build()))
-//                .unlockedBy("has_iron_block", inventoryTrigger(ItemPredicate.Builder.item()
-//                        .of(Items.IRON_BLOCK).build()))
-//                .unlockedBy("has_stick", inventoryTrigger(ItemPredicate.Builder.item()
-//                        .of(Items.STICK).build()))
-//                .save(p_251297_);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_SWORD.get())
+                .pattern(" A ")
+                .pattern(" A ")
+                .pattern(" C ")
+                .define('A', Items.EMERALD)
+                .define('C', Items.STICK)
+                .unlockedBy("has_emerald", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.EMERALD).build()))
+                .unlockedBy("has_stick", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.STICK).build()))
+                .save(p_251297_);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_PICKAXE.get())
+                .pattern("AAA")
+                .pattern(" C ")
+                .pattern(" C ")
+                .define('A', Items.EMERALD)
+                .define('C', Items.STICK)
+                .unlockedBy("has_emerald", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.EMERALD).build()))
+                .unlockedBy("has_stick", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.STICK).build()))
+                .save(p_251297_);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_SHOVEL.get())
+                .pattern(" A ")
+                .pattern(" C ")
+                .pattern(" C ")
+                .define('A', Items.EMERALD)
+                .define('C', Items.STICK)
+                .unlockedBy("has_emerald", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.EMERALD).build()))
+                .unlockedBy("has_stick", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.STICK).build()))
+                .save(p_251297_);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_AXE.get())
+                .pattern("AA ")
+                .pattern("AC ")
+                .pattern(" C ")
+                .define('A', Items.EMERALD)
+                .define('C', Items.STICK)
+                .unlockedBy("has_emerald", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.EMERALD).build()))
+                .unlockedBy("has_stick", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.STICK).build()))
+                .save(p_251297_);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_HOE.get())
+                .pattern(" AA")
+                .pattern(" C ")
+                .pattern(" C ")
+                .define('A', Items.EMERALD)
+                .define('C', Items.STICK)
+                .unlockedBy("has_emerald", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.EMERALD).build()))
+                .unlockedBy("has_stick", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.STICK).build()))
+                .save(p_251297_);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_HELMET.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("   ")
+                .define('A', Items.EMERALD)
+                .unlockedBy("has_emerald", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.EMERALD).build()))
+                .save(p_251297_);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_CHESTPLATE.get())
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', Items.EMERALD)
+                .unlockedBy("has_emerald", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.EMERALD).build()))
+                .save(p_251297_);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_LEGGINGS.get())
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', Items.EMERALD)
+                .unlockedBy("has_emerald", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.EMERALD).build()))
+                .save(p_251297_);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_BOOTS.get())
+                .pattern("   ")
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', Items.EMERALD)
+                .unlockedBy("has_emerald", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.EMERALD).build()))
+                .save(p_251297_);
     }
 }
