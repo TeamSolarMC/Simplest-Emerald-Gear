@@ -10,7 +10,7 @@ license="MIT"
 
 modId="simplest_emerald_gear"
 
-version="1.0.1"
+version="1.0.2"
 
 displayName="Simplest Emerald Gear"
 
@@ -18,7 +18,7 @@ authors="IndEvo Studio" #optional
 
 
 
-description='''A light mod adding Emerald Gear.'''
+description='''Emerald armor and tools.'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.simplest_emerald_gear]] #optional
 # the modid of the dependency
