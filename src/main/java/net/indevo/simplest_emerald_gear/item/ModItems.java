@@ -31,8 +31,6 @@ public class ModItems {
     public static final RegistryObject<Item> EMERALD_BOOTS = ITEMS.register("emerald_boots",
             () -> new ArmorItem(ModArmorMaterials.EMERALD, ArmorItem.Type.BOOTS, new Item.Properties()));
 
-
-
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
