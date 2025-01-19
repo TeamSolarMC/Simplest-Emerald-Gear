@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:emerald"
+    },
+    "C": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " A ",
+    " C ",
+    " C "
+  ],
+  "result": {
+    "count": 1,
+    "id": "simplest_emerald_gear:emerald_shovel"
+  }
+}

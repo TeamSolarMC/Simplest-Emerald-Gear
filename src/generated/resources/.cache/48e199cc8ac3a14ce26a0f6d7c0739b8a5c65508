@@ -1,2 +1,7 @@
-// 1.20.1	2024-03-09T01:38:46.4235392	Item Tags
-aed484b3a99f0b378b805ecc85747e00bdba433a data/minecraft/tags/items/trimmable_armor.json
+// 1.21.1	2025-01-19T15:48:57.5323461	Item Tags
+493e0ed48a2cc36bbcaab9944693daf86e4ac180 data/minecraft/tags/item/axes.json
+2abb1799abc381e9e16f72b1c6c5377d567eb9f1 data/minecraft/tags/item/hoes.json
+d743d9a073584162afb9177bac4f87638dd85a63 data/minecraft/tags/item/pickaxes.json
+8ed07c07bd430880789968579ebf3a2367115bef data/minecraft/tags/item/shovels.json
+1c5f9d901e30b7b5312be6025a75f8fa602ca406 data/minecraft/tags/item/swords.json
+aed484b3a99f0b378b805ecc85747e00bdba433a data/minecraft/tags/item/trimmable_armor.json
