@@ -13,23 +13,23 @@ public class ModItems {
     // Tools
     public static final DeferredItem<SwordItem> EMERALD_SWORD = ITEMS.register("emerald_sword",
             () -> new SwordItem(ModToolTiers.EMERALD, new Item.Properties().attributes(
-                    SwordItem.createAttributes(ModToolTiers.EMERALD, 3, -2.4f)
+                    SwordItem.createAttributes(ModToolTiers.EMERALD, 4, -2.4f)
             )));
     public static final DeferredItem<PickaxeItem> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe",
             () -> new PickaxeItem(ModToolTiers.EMERALD, new Item.Properties().attributes(
-                    PickaxeItem.createAttributes(ModToolTiers.EMERALD, 1, -2.8f)
+                    PickaxeItem.createAttributes(ModToolTiers.EMERALD, 2, -3)
             )));
     public static final DeferredItem<ShovelItem> EMERALD_SHOVEL = ITEMS.register("emerald_shovel",
             () -> new ShovelItem(ModToolTiers.EMERALD, new Item.Properties().attributes(
-                    ShovelItem.createAttributes(ModToolTiers.EMERALD, 1, -2.8f)
+                    ShovelItem.createAttributes(ModToolTiers.EMERALD, 2.5F, -3)
             )));
     public static final DeferredItem<AxeItem> EMERALD_AXE = ITEMS.register("emerald_axe",
             () -> new AxeItem(ModToolTiers.EMERALD, new Item.Properties().attributes(
-                    AxeItem.createAttributes(ModToolTiers.EMERALD, 5.5F, -3.05F)
+                    AxeItem.createAttributes(ModToolTiers.EMERALD, 6.5F, -3.05F)
             )));
     public static final DeferredItem<HoeItem> EMERALD_HOE = ITEMS.register("emerald_hoe",
             () -> new HoeItem(ModToolTiers.EMERALD, new Item.Properties().attributes(
-                    HoeItem.createAttributes(ModToolTiers.EMERALD, -2, -0.5F)
+                    HoeItem.createAttributes(ModToolTiers.EMERALD, -1.5F, -0.5F)
             )));
 
     // Armor

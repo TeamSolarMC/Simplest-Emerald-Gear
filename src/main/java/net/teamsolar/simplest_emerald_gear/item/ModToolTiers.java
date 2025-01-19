@@ -26,6 +26,6 @@ public class ModToolTiers {
             1.5F,
             // Enchantability (see also ModArmorMaterials)
             10,
-            () -> Ingredient.of(Tags.Items.INGOTS_COPPER)
+            () -> Ingredient.of(Tags.Items.GEMS_EMERALD)
     );
 }
