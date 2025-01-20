@@ -23,7 +23,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildRecipes(@NotNull RecipeOutput output) {
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_SWORD.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_SWORD.get())
                 .pattern(" A ")
                 .pattern(" A ")
                 .pattern(" C ")
@@ -35,7 +35,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.STICK).build()))
                 .save(output);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_PICKAXE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.EMERALD_PICKAXE.get())
                 .pattern("AAA")
                 .pattern(" C ")
                 .pattern(" C ")
@@ -47,7 +47,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.STICK).build()))
                 .save(output);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_SHOVEL.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.EMERALD_SHOVEL.get())
                 .pattern(" A ")
                 .pattern(" C ")
                 .pattern(" C ")
@@ -59,7 +59,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.STICK).build()))
                 .save(output);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_AXE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.EMERALD_AXE.get())
                 .pattern("AA ")
                 .pattern("AC ")
                 .pattern(" C ")
@@ -71,10 +71,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.STICK).build()))
                 .save(output);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_HOE.get())
-                .pattern(" AA")
-                .pattern(" C ")
-                .pattern(" C ")
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.EMERALD_HOE.get())
+                .pattern("AA")
+                .pattern(" C")
+                .pattern(" C")
                 .define('A', Items.EMERALD)
                 .define('C', Items.STICK)
                 .unlockedBy("has_emerald", inventoryTrigger(ItemPredicate.Builder.item()
@@ -83,7 +83,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.STICK).build()))
                 .save(output);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_HELMET.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_HELMET.get())
                 .pattern("AAA")
                 .pattern("A A")
                 .pattern("   ")
@@ -92,7 +92,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.EMERALD).build()))
                 .save(output);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_CHESTPLATE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_CHESTPLATE.get())
                 .pattern("A A")
                 .pattern("AAA")
                 .pattern("AAA")
@@ -101,7 +101,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.EMERALD).build()))
                 .save(output);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_LEGGINGS.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_LEGGINGS.get())
                 .pattern("AAA")
                 .pattern("A A")
                 .pattern("A A")
@@ -110,7 +110,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.EMERALD).build()))
                 .save(output);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.EMERALD_BOOTS.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_BOOTS.get())
                 .pattern("   ")
                 .pattern("A A")
                 .pattern("A A")
