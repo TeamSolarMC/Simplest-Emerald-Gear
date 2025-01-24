@@ -1,10 +1,8 @@
-package net.indevo.simplest_emerald_gear.datagen;
+package net.teamsolar.simplest_emerald_gear.datagen;
 
-import net.indevo.simplest_emerald_gear.SimplestEmeraldGear;
-import net.indevo.simplest_emerald_gear.util.ModTags;
+import net.teamsolar.simplest_emerald_gear.SimplestEmeraldGear;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;

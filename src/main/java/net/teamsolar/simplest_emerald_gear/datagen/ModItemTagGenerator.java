@@ -1,7 +1,7 @@
-package net.indevo.simplest_emerald_gear.datagen;
+package net.teamsolar.simplest_emerald_gear.datagen;
 
-import net.indevo.simplest_emerald_gear.SimplestEmeraldGear;
-import net.indevo.simplest_emerald_gear.item.ModItems;
+import net.teamsolar.simplest_emerald_gear.SimplestEmeraldGear;
+import net.teamsolar.simplest_emerald_gear.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;

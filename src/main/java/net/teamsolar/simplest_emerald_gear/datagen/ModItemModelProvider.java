@@ -1,15 +1,13 @@
-package net.indevo.simplest_emerald_gear.datagen;
+package net.teamsolar.simplest_emerald_gear.datagen;
 
-import net.indevo.simplest_emerald_gear.SimplestEmeraldGear;
-import net.indevo.simplest_emerald_gear.item.ModItems;
+import net.teamsolar.simplest_emerald_gear.SimplestEmeraldGear;
+import net.teamsolar.simplest_emerald_gear.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModItemModelProvider extends ItemModelProvider {

@@ -4,10 +4,11 @@ license="MIT"
 
 [[mods]]
 modId="simplest_emerald_gear"
-version="1.0.4"
+version="1.0.5"
 displayName="Simplest Emerald Gear"
-authors="IndEvo Studio"
+authors="Team Solar"
 description='''Emerald armor and tools.'''
+logoFile="logo.png"
 
 [[dependencies.simplest_emerald_gear]]
 modId="forge"

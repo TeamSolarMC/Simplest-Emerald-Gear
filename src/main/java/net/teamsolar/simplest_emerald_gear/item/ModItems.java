@@ -1,6 +1,6 @@
-package net.indevo.simplest_emerald_gear.item;
+package net.teamsolar.simplest_emerald_gear.item;
 
-import net.indevo.simplest_emerald_gear.SimplestEmeraldGear;
+import net.teamsolar.simplest_emerald_gear.SimplestEmeraldGear;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -12,15 +12,15 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, SimplestEmeraldGear.MOD_ID);
 
     public static final RegistryObject<Item> EMERALD_SWORD = ITEMS.register("emerald_sword",
-            () -> new SwordItem(ModToolTiers.EMERALD, 3, -2.4F, new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.EMERALD, 4, -2.4F, new Item.Properties()));
     public static final RegistryObject<Item> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.EMERALD, 1, -2.8F, new Item.Properties()));
+            () -> new PickaxeItem(ModToolTiers.EMERALD, 2, -3, new Item.Properties()));
     public static final RegistryObject<Item> EMERALD_SHOVEL = ITEMS.register("emerald_shovel",
-            () -> new ShovelItem(ModToolTiers.EMERALD, 1.5F, -3.0F, new Item.Properties()));
+            () -> new ShovelItem(ModToolTiers.EMERALD, 2.5F, -3, new Item.Properties()));
     public static final RegistryObject<Item> EMERALD_AXE = ITEMS.register("emerald_axe",
-            () -> new AxeItem(ModToolTiers.EMERALD, 5.5F, -3.05F, new Item.Properties()));
+            () -> new AxeItem(ModToolTiers.EMERALD, 6.5F, -3.05F, new Item.Properties()));
     public static final RegistryObject<Item> EMERALD_HOE = ITEMS.register("emerald_hoe",
-            () -> new HoeItem(ModToolTiers.EMERALD, -2, -0.5F, new Item.Properties()));
+            () -> new HoeItem(ModToolTiers.EMERALD, -1, -0.5F, new Item.Properties()));
 
     public static final RegistryObject<Item> EMERALD_HELMET = ITEMS.register("emerald_helmet",
             () -> new ArmorItem(ModArmorMaterials.EMERALD, ArmorItem.Type.HELMET, new Item.Properties()));

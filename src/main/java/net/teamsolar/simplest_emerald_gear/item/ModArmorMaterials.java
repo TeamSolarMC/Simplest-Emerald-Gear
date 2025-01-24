@@ -1,10 +1,9 @@
-package net.indevo.simplest_emerald_gear.item;
+package net.teamsolar.simplest_emerald_gear.item;
 
-import net.indevo.simplest_emerald_gear.SimplestEmeraldGear;
+import net.teamsolar.simplest_emerald_gear.SimplestEmeraldGear;
 import net.minecraft.Util;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.util.LazyLoadedValue;
 import net.minecraft.util.StringRepresentable;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;

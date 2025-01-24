@@ -1,13 +1,12 @@
-package net.indevo.simplest_emerald_gear.datagen;
+package net.teamsolar.simplest_emerald_gear.datagen;
 
-import net.indevo.simplest_emerald_gear.item.ModItems;
+import net.teamsolar.simplest_emerald_gear.item.ModItems;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
-import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 

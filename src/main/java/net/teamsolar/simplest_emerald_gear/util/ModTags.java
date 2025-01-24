@@ -1,6 +1,6 @@
-package net.indevo.simplest_emerald_gear.util;
+package net.teamsolar.simplest_emerald_gear.util;
 
-import net.indevo.simplest_emerald_gear.SimplestEmeraldGear;
+import net.teamsolar.simplest_emerald_gear.SimplestEmeraldGear;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
