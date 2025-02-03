@@ -17,7 +17,7 @@ public class ModItems {
             )));
     public static final DeferredItem<PickaxeItem> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe",
             () -> new PickaxeItem(ModToolTiers.EMERALD, new Item.Properties().attributes(
-                    PickaxeItem.createAttributes(ModToolTiers.EMERALD, 2, -3)
+                    PickaxeItem.createAttributes(ModToolTiers.EMERALD, 2, -2.8f)
             )));
     public static final DeferredItem<ShovelItem> EMERALD_SHOVEL = ITEMS.register("emerald_shovel",
             () -> new ShovelItem(ModToolTiers.EMERALD, new Item.Properties().attributes(
